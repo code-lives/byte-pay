@@ -1,0 +1,17 @@
+{
+    "name": "code-lives/byte-pay",
+    "description": "头条小程序支付、支付、异步通知、查询、退款、分账、获取token",
+    "type": "library",
+    "license": "MIT",
+    "version":"3.0",
+    "authors": [
+        {
+            "name": "lijie",
+            "email": "18734351007@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload":{
+   	"psr-4":{"Byte\\Pay\\":"src"}
+    }
+}
