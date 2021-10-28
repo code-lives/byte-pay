@@ -22,7 +22,7 @@ class Refund extends TTPay
         $params = array_merge($params, [
             'app_id' => Config::$APP_ID
         ]);
-
+        $params['refund_amount'] *= 100;
         $result = $this->post($this->refundUrl, json_encode(['sign' => $this->sign($params)] + $params));
 
         return $this->verifyResult($result);
