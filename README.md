@@ -1,4 +1,4 @@
-# 头条小程序担保支付
+# 头条小程序担保支付（点个收藏是我前进的动力）
 
 [官方接口文档](https://microapp.bytedance.com/docs/zh-CN/mini-app/develop/server/ecpay/introduction/)
 
